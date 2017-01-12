@@ -1,0 +1,13 @@
+in order to compile the code, type:
+gmake
+
+You must do the following before you run the code:
+
+export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:~/mico_stuff/usr/local/include
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/mico_stuff/usr/local/lib
+
+
+then do:
+
+./server in one window (login for ssh)
+./client in another window (login for ssh)

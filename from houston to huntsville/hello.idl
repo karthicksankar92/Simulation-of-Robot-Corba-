@@ -1,0 +1,8 @@
+// -*- c++ -*-
+
+interface HelloWorld {
+	long getTemp();
+	long getPressure();
+	long getWind();
+};
+
